@@ -127,6 +127,7 @@ a {
     justify-content: space-between;
     align-items: center;
     height: 80px;
+    position: relative;
 }
 
 .logo-text {
@@ -137,9 +138,18 @@ a {
     color: var(--primary-green);
 }
 
+.brand-logo {
+    height: 48px;
+    width: auto;
+    display: block;
+}
+
 .nav-links {
     display: flex;
     gap: 32px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .nav-links a {
